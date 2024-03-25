@@ -6,6 +6,59 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
 
+
+# Add a Markdown component to display the greeting
+st.markdown("### Hi, My name is Nadeem and this app is developed by me")
+
+links_row = "<a href='https://www.linkedin.com/in/nadeem-akhtar-/' target='_blank'>" \
+            "<img src='https://img.icons8.com/color/48/000000/linkedin.png' width='30'></a>" \
+            " | " \
+            "<a href='https://github.com/NadeemAkhtar1947' target='_blank'>" \
+            "<img src='https://img.icons8.com/color/48/000000/github.png' width='30'></a>" \
+            " | " \
+            "<a href='https://www.kaggle.com/mdnadeemakhtar/code' target='_blank'>" \
+            "<img src='https://www.kaggle.com/static/images/site-logo.png' width='30'></a>" \
+            " | " \
+            "<a href='https://tyrex.netlify.app/' target='_blank'>" \
+            "<img src='https://img.icons8.com/color/48/000000/globe--v1.png' width='30'></a>"
+
+# Display the links row using Markdown
+st.markdown(links_row, unsafe_allow_html=True)
+
+
+# Function to increment view count
+def increment_views():
+    # Read current view count from file
+    try:
+        with open("view_count.txt", "r") as file:
+            views = int(file.read())
+    except FileNotFoundError:
+        # If file doesn't exist, initialize view count to 0
+        views = 0
+
+    # Increment view count
+    views += 1
+
+    # Write updated view count to file
+    with open("view_count.txt", "w") as file:
+        file.write(str(views))
+
+    return views
+
+# Increment view count only once per user visit
+if not st.session_state.get("view_counted", False):
+    total_views = increment_views()
+    st.session_state.view_counted = True
+else:
+    total_views = int(open("view_count.txt", "r").read())
+
+# Display total views
+st.write("Total Views:", total_views)
+
+# Your Streamlit app code goes here...
+
+
+
 df = pd.read_csv('athlete_events.csv')
 region = pd.read_csv('noc_regions.csv')
 
