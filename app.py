@@ -19,7 +19,7 @@ links_row = "<a href='https://www.linkedin.com/in/nadeem-akhtar-/' target='_blan
             "<a href='https://www.kaggle.com/mdnadeemakhtar/code' target='_blank'>" \
             "<img src='https://www.kaggle.com/static/images/site-logo.png' width='30'></a>" \
             " | " \
-            "<a href='https://tyrex.netlify.app/' target='_blank'>" \
+            "<a href='https://nsde.netlify.app/' target='_blank'>" \
             "<img src='https://img.icons8.com/color/48/000000/globe--v1.png' width='30'></a>"
 
 # Display the links row using Markdown
