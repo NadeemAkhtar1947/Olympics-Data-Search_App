@@ -77,6 +77,7 @@ Here are some screenshots to give you a preview of the app in action:
 
 ### Medal Distribution
 <img width="959" alt="3" src="https://github.com/user-attachments/assets/ae250ba0-3389-437e-bcea-2fe96d48f1a1" />
+
 *Visualizing medal tallies across countries.*
 
 ### Top Athletes
@@ -88,6 +89,12 @@ Here are some screenshots to give you a preview of the app in action:
 <img width="960" alt="5" src="https://github.com/user-attachments/assets/7eace962-36f1-4d56-9a34-170036b94d31" />
 
 *Compare the performance of athletes over time.*
+
+## Live Demo
+
+Here are link to have a look of the app in action:
+
+[![Live Demo](https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://olympics-data-search-app1.streamlit.app/)
 
 ## Example Features 🎮
 
