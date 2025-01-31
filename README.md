@@ -90,11 +90,12 @@ Here are some screenshots to give you a preview of the app in action:
 
 *Compare the performance of athletes over time.*
 
-## Live Demo
+## Live Demo 🚀
 
-Here are link to have a look of the app in action:
+Here are links to have a look at the app in action:
 
-[![Live Demo](https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://olympics-data-search-app1.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-FF5733?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://olympics-data-search-app1.streamlit.app/)
+
 
 ## Example Features 🎮
 
