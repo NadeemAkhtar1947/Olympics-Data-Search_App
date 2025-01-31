@@ -56,12 +56,10 @@ To run the project locally, follow these steps:
     pip install -r requirements.txt
     ```
 
-4. **Download the Olympic datasets** (if not already included in the repo).
+4. **Download the Olympic datasets** 
 
-    Make sure you have the following files in your project directory:
-
-    - `summer.csv`
-    - `winter.csv`
+    - `athlete_events.csv`
+    - `noc_regions.csv`
 
 ## Usage 🚀
 
@@ -78,15 +76,17 @@ To run the project locally, follow these steps:
 Here are some screenshots to give you a preview of the app in action:
 
 ### Medal Distribution
-![Medal Distribution](screenshots/medal_distribution.png)
+<img width="959" alt="3" src="https://github.com/user-attachments/assets/ae250ba0-3389-437e-bcea-2fe96d48f1a1" />
 *Visualizing medal tallies across countries.*
 
 ### Top Athletes
-![Top Athletes](screenshots/top_athletes.png)
+<img width="959" alt="4" src="https://github.com/user-attachments/assets/f140f054-8b08-480d-b268-31db68a53577" />
+
 *Identifying the top athletes based on total medals earned.*
 
 ### Athlete Comparison
-![Athlete Comparison](screenshots/athlete_comparison.png)
+<img width="960" alt="5" src="https://github.com/user-attachments/assets/7eace962-36f1-4d56-9a34-170036b94d31" />
+
 *Compare the performance of athletes over time.*
 
 ## Example Features 🎮
@@ -117,18 +117,11 @@ We welcome contributions! If you'd like to contribute:
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgements 🙏
+## 📬 Contact & Support
+Connect with me for feedback or contributions:
 
-- The datasets used in this project are from [source(s)](link-to-source).
-- Thanks to the creators of **Streamlit**, **Pandas**, **Matplotlib**, and **Seaborn** for their awesome tools! 🎉
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nadeem-akhtar-/) | [![GitHub](https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NadeemAkhtar1947) | [![Kaggle](https://img.shields.io/badge/Kaggle-00A65A?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/mdnadeemakhtar/code)
+| [![Portfolio](https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://nsde.netlify.app/)
 
-## Contact 📧
+🚀 **Developed by Nadeem Akhtar** | 📅 **Copyright © 2024**
 
-If you have any questions or issues, feel free to open an issue or contact me directly!
-
-- **GitHub**: [your-username](https://github.com/your-username)
-- **Email**: [your-email@example.com]
-
----
-
-Happy analyzing! 🚀
